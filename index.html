@@ -255,23 +255,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/js.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('a[href^="#"]').on('click', function (e) {
-                e.preventDefault();
-
-                var target = this.hash,
-                    $target = $(target);
-
-                $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top - 80
-                }, 900, 'swing', function () {
-                    window.location.hash = target;
-                });
-            });
-        });
-    </script>
+	
 </body>
 
 </html>
