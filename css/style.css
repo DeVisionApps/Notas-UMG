@@ -1,0 +1,51 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("../img/bgimg.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #0d47a1;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #0d47a1;
+    }
+}
+
+.flex-center {
+    color: #fff;
+}
+
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+.extra-margin {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
